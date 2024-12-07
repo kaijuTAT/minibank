@@ -14,10 +14,15 @@ This [GitHub page](https://hm-ai.github.io/Data_Structures_Algorithms/) contains
 
 # Syllabus
 
-| **Date**                                                | **Topic**                                    | **Content Overview**                                                                   | Slides                              | **Colabs**                                                                                                     | **Solutions** |
-|---------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| Dec 2, 2024                                             | Introduction to Embedding-Based Algorithms   | An introduction to embedding algorithms with GloVe: theory and practical applications. | [Glove_Sides]("./slides/GloVe.png") | [Programming_Session_1](https://colab.research.google.com/drive/1p5uRd4hJNaqInZh98hYuiknXI6Rc36-F?usp=sharing) |               |
+| **Date**                   | **Topic**                                    | **Content Overview**                                                                   | Slides                              | **Colabs**                                                                                                      | **Solutions**                                                                                                           |
+|----------------------------|----------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Dec 2, 2024 -> Dec 6, 2025 | Introduction to Embedding-Based Algorithms   | An introduction to embedding algorithms with GloVe: theory and practical applications. | [Glove_Sides]("./slides/GloVe.png") | [Programming_Session_1](https://colab.research.google.com/drive/1p5uRd4hJNaqInZh98hYuiknXI6Rc36-F?usp=sharing)  | [Solution_Programming_SEssion_1(https://colab.research.google.com/drive/105sORnOHO8hPj0mj7fs2nFbkdYQjLtwk?usp=sharing)  | 
 
+# MCQs
+
+| **Date**     | **Topic**                                    | Exam | Solution | 
+|--------------|----------------------------------------------|------|----------| 
+| Dec 10, 2024 | Introduction to Embedding-Based Algorithms   |      |          | 
 
 
 # Contact
