@@ -14,18 +14,18 @@ This [GitHub page](https://hm-ai.github.io/Data_Structures_Algorithms/) contains
 
 # Syllabus
 
-| **Date**                        | **Topic**                                  | **Content Overview**                                                                           | Slides                                                         | **Colabs**                                                                                                     | **Solutions**                                                                                                           |
-|---------------------------------|--------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| `Dec 2, 2024 -> Dec 6, 2024`    | Introduction to Embedding-Based Algorithms | An introduction to embedding algorithms with GloVe: theory and practical applications.         | [Glove]("./slides/GloVe.pdf")                                  | [Programming_Session_1](https://colab.research.google.com/drive/1p5uRd4hJNaqInZh98hYuiknXI6Rc36-F?usp=sharing) | [Solution_Programming_Session_1](https://colab.research.google.com/drive/105sORnOHO8hPj0mj7fs2nFbkdYQjLtwk?usp=sharing) | 
-| `Dec 9, 2024 -> Dec 13, 2024`   | The Stable Matching Problem                | An introduction to the Stable Matching Problem, the Gale-Shapley algorithm, and its proporties | [Stable Matching]("./slides/Stable_Matching_Gale_Shapley.pdf") |                                                                                                                |                                                                                                                         | 
+| **Date**                        | **Topic**                                  | **Content Overview**                                                                           | Slides                                                     | **Colabs**                                                                                                     | **Solutions**                                                                                                           |
+|---------------------------------|--------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| `Dec 2, 2024 -> Dec 6, 2024`    | Introduction to Embedding-Based Algorithms | An introduction to embedding algorithms with GloVe: theory and practical applications.         | [Glove](slides/GloVe.pdf)                                  | [Programming_Session_1](https://colab.research.google.com/drive/1p5uRd4hJNaqInZh98hYuiknXI6Rc36-F?usp=sharing) | [Solution_Programming_Session_1](https://colab.research.google.com/drive/105sORnOHO8hPj0mj7fs2nFbkdYQjLtwk?usp=sharing) | 
+| `Dec 9, 2024 -> Dec 13, 2024`   | The Stable Matching Problem                | An introduction to the Stable Matching Problem, the Gale-Shapley algorithm, and its proporties | [Stable Matching](slides/Stable_Matching_Gale_Shapley.pdf) |                                                                                                                |                                                                                                                         | 
 
 
 # Mock MCQs
 
-| **Date**     | **Topic**                                                     | Mock Exam                             | Solution | 
-|--------------|---------------------------------------------------------------|---------------------------------------|----------| 
-| Dec 9, 2024  | Introduction to Embedding-Based Algorithms                    | [MCQ 1]("./Mock_mcqs/Mock_mcq_1.pdf") |          | 
-| Dec 16, 2024 | The Stable Marriage Problem and The Gale-Shapley algorithm    |                                       |          | 
+| **Date**     | **Topic**                                                     | Mock Exam                         | Solution | 
+|--------------|---------------------------------------------------------------|-----------------------------------|----------| 
+| Dec 9, 2024  | Introduction to Embedding-Based Algorithms                    | [MCQ 1](Mock_mcqs/Mock_mcq_1.pdf) |          | 
+| Dec 16, 2024 | The Stable Marriage Problem and The Gale-Shapley algorithm    |                                   |          | 
 
 
 # MCQs
