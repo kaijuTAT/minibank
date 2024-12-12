@@ -30,10 +30,10 @@ This [GitHub page](https://hm-ai.github.io/Data_Structures_Algorithms/) contains
 
 # MCQs
 
-| **Date**     | **Topic**                                                     | Exam                    | Solution                                     | 
-|--------------|---------------------------------------------------------------|-------------------------|----------------------------------------------| 
-| Dec 10, 2024 | Introduction to Embedding-Based Algorithms                    | [MCQ 1](mcqs/MCQ_1.pdf) | [MCQ_Answers 1](Mock_mcqs/MCQ_1_Answers.pdf) |          
-| Dec 17, 2024 | The Stable Marriage Problem and The Gale-Shapley algorithm    |                         |                                              | 
+| **Date**     | **Topic**                                                     | Exam                    | Solution                                | 
+|--------------|---------------------------------------------------------------|-------------------------|-----------------------------------------| 
+| Dec 10, 2024 | Introduction to Embedding-Based Algorithms                    | [MCQ 1](mcqs/MCQ_1.pdf) | [MCQ_Answers 1](mcqs/MCQ_1_Answers.pdf) |          
+| Dec 17, 2024 | The Stable Marriage Problem and The Gale-Shapley algorithm    |                         |                                         | 
 
 
 # Contact
