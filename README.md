@@ -162,7 +162,7 @@ The goal is to strengthen understanding and application of object-oriented progr
 1. **Clone Repository** (if applicable):
 
 ```bash
-git clone [your-gitee-repo-url]
+git clone https://github.com/kaijuTAT/minibank.git
 cd MiniBankingSystem
 ```
 
