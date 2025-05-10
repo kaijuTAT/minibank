@@ -22,7 +22,6 @@ This project simulates a banking system with a graphical user interface (GUI) bu
 
 The goal is to strengthen understanding and application of object-oriented programming (OOP) principles in C++, including classes, inheritance, abstraction, encapsulation, multi-file organization, and namespace management.
 
-> ⚠️ Note: The original project specification required a console-based text menu system. This implementation uses a GUI with Raylib. Please confirm with the instructor whether this deviation is acceptable.
 
 ---
 
