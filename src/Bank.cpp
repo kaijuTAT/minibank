@@ -317,12 +317,7 @@ std::string Bank::generateUniqueAccountId(AccountType type) {
 
         std::stringstream ssAccNum;
         // *** Ensure accountNumDist_ generates 8 digits for ZZZZAAAA ***
-        // The previous range 1000000000LL to 9999999999LL is for 10 digits.
-        // For 8 digits, it should be 0 to 99999999 or 10000000 to 99999999.
-        // The constructor now initializes accountNumDist_(10000000LL, 99999999LL)
-        // which is correct for 8 digits if you want to avoid leading zeros in the number itself,
-        // but setw will handle padding.
-        // If you want numbers like 00000001, then accountNumDist_(0, 99999999LL) is fine.
+       
         ssAccNum << std::setw(8) << std::setfill('0') << randomAccNum;
         std::string accNumStr = ssAccNum.str();
 
@@ -352,4 +347,4 @@ bool Bank::customerExists(const std::string& name) const {
     return customerIndex_.count(name) > 0;
 }
 
-} // namespace banking_system
+}

@@ -1,12 +1,11 @@
-#pragma once // Header guard
+#pragma once 
 
 #include <string>
-#include <chrono> // For std::chrono::system_clock::time_point
-#include <ctime>  // For std::time_t
+#include <chrono> 
+#include <ctime>  
 
 namespace banking_system {
 
-// Enum to represent different types of transactions
 enum class TransactionType {
     DEPOSIT,
     WITHDRAWAL,

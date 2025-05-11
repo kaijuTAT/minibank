@@ -1,10 +1,11 @@
-#pragma once // Header guard
+#pragma once 
 
-#include "raylib.h"
-#include <memory>
+#include "raylib.h" 
+#include <memory>   
 #include <string>
 #include <vector>
 
+// declarations for classes used by UIManager
 namespace banking_system {
     class Bank;
     class Customer;
@@ -14,7 +15,8 @@ namespace banking_system {
 
 namespace banking_system {
 
-enum class ScreenState { /* ... (states remain the same) ... */
+// Enum to represent different UI screen states
+enum class ScreenState {
     MAIN_MENU,
     REGISTER_CUSTOMER,
     ACCESS_CUSTOMER_SEARCH,
@@ -36,18 +38,13 @@ class UIManager {
 public:
     explicit UIManager(Bank& bank);
 
-    // --- Canonical Form ---
-    ~UIManager() = default; // Default destructor is fine
+    // --- Canonical Form---
+    ~UIManager() = default; 
 
     // UIManager is non-copyable due to reference member (bank_) and typically shouldn't be copied.
-    UIManager(const UIManager&) = delete;
-    UIManager& operator=(const UIManager&) = delete;
-
-    // UIManager can be movable if needed, though not typical for a manager class like this.
-    // Defaulting them is usually safe if no raw resources are managed directly.
-    UIManager(UIManager&&) = default;
-    UIManager& operator=(UIManager&&) = default;
-    // ----------------------
+    UIManager(const UIManager&) = delete;            // Delete the copy constructor
+    UIManager& operator=(const UIManager&) = delete; // Delete the copy assignment operator
+    
 
     void run();
 
@@ -99,4 +96,4 @@ private:
     void clearInputBuffers();
 };
 
-} // namespace banking_system
+} 

@@ -2,14 +2,14 @@
 
 #include <string>
 #include <vector>
-#include <unordered_map> // Changed from std::map
+#include <unordered_map> // Using unordered_map
 #include <memory>
 #include <optional>
 #include <random>
 
-#include "Transaction.hh" // Transaction, TransactionType
-#include "Customer.hh"    // Customer
-#include "Account.hh"     // Account, AccountType
+#include "Transaction.hh"
+#include "Customer.hh"
+#include "Account.hh"
 
 namespace banking_system {
 
@@ -18,12 +18,17 @@ namespace banking_system {
 class Bank {
 public:
     Bank();
-    ~Bank() = default;
+    ~Bank() = default; // Default destructor is fine
 
-    Bank(const Bank&) = delete;
-    Bank& operator=(const Bank&) = delete;
-    Bank(Bank&&) = default;
-    Bank& operator=(Bank&&) = default;
+    // --- Canonical Form: Non-copyable and Non-movable ---
+    // By deleting the copy operations, and not declaring move operations,
+    // the class becomes non-copyable and non-movable by default compiler behavior.
+    Bank(const Bank&) = delete;            // Delete copy constructor
+    Bank& operator=(const Bank&) = delete; // Delete copy assignment operator
+    // Move constructor and move assignment operator are implicitly not generated
+    // or are considered deleted due to the user-declared copy operations.
+    // No '&&' syntax will appear.
+    // ----------------------------------------------------
 
     // Customer Management
     Customer* registerCustomer(const std::string& name);
@@ -34,12 +39,11 @@ public:
     // Account Management
     Account* findAccount(const std::string& accountId);
     const Account* findAccount(const std::string& accountId) const;
-    // *** Changed to std::unordered_map to match private member ***
     const std::unordered_map<std::string, std::unique_ptr<Account>>& getAllAccounts() const;
     std::vector<Account*> getCustomerAccounts(const std::string& customerName);
     std::vector<const Account*> getCustomerAccounts(const std::string& customerName) const;
 
-    // Transaction Operations (returns empty optional on failure)
+    // Transaction Operations
     std::optional<Transaction> performDeposit(const std::string& accountId,
                                               double amount,
                                               const std::string& note = "");
@@ -64,14 +68,12 @@ public:
 
 private:
     std::vector<std::unique_ptr<Customer>> customers_;
-    std::unordered_map<std::string, std::unique_ptr<Account>> accounts_; // Now unordered_map
+    std::unordered_map<std::string, std::unique_ptr<Account>> accounts_;
     std::vector<Transaction> transactions_;
-    std::unordered_map<std::string, Customer*> customerIndex_; // Now unordered_map, raw pointers are fine as customers_ owns them
+    std::unordered_map<std::string, Customer*> customerIndex_;
 
-    std::mt19937 randomEngine_{std::random_device{}()}; // In-class initialization for random engine
-    // *** Added branchDist_ declaration ***
+    std::mt19937 randomEngine_{std::random_device{}()};
     std::uniform_int_distribution<int> branchDist_;
-    // *** Removed in-class initializer for accountNumDist_ to be initialized in constructor ***
     std::uniform_int_distribution<long long> accountNumDist_;
 
     long long nextTransactionId_ = 1;

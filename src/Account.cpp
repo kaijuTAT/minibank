@@ -21,17 +21,14 @@ Account::Account(const std::string& accountId, const std::string& ownerName, dou
     balance_ = initialBalance;
 }
 
-// Getter for accountId_
 const std::string& Account::getAccountId() const {
     return accountId_;
 }
 
-// Getter for ownerName_
 const std::string& Account::getOwnerName() const {
     return ownerName_;
 }
 
-// Getter for balance_
 double Account::getBalance() const {
     return balance_;
 }
@@ -39,29 +36,25 @@ double Account::getBalance() const {
 // Base class default implementation for deposit (not allowed)
 bool Account::deposit(double amount, const std::string& note) {
     // std::cerr << "Debug: Base Account::deposit called for " << accountId_ << std::endl;
-    return false; // Operation not permitted for base account type
+    return false; 
 }
 
-// Base class default implementation for withdraw (not allowed)
 bool Account::withdraw(double amount, const std::string& note) {
     // std::cerr << "Debug: Base Account::withdraw called for " << accountId_ << std::endl;
-    return false; // Operation not permitted for base account type
+    return false; 
 }
 
-// Base class default implementation for transfer (not allowed)
 bool Account::transfer(Account* destinationAccount, double amount, const std::string& note) {
     // std::cerr << "Debug: Base Account::transfer called for " << accountId_ << std::endl;
-    return false; // Operation not permitted for base account type
+    return false; 
 }
 
 // Setter for balance_
 void Account::setBalance(double newBalance) {
-    // Basic validation; more complex rules could be added here or in Bank class.
     if (newBalance < 0.0) {
         // For this system, we don't allow negative balances directly through setBalance.
         // Overdrafts would need specific handling.
         std::cerr << "Warning: Attempted to set negative balance for account " << accountId_ << ". Operation might be rejected by business logic." << std::endl;
-        // Not throwing an exception here, as the Bank class should enforce balance rules.
     }
     balance_ = newBalance;
 }
@@ -72,4 +65,4 @@ bool Account::isValidAmount(double amount) const {
            amount <= std::numeric_limits<double>::max(); // Check against max value
 }
 
-} // namespace banking_system
+} 

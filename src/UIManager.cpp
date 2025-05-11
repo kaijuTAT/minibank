@@ -37,11 +37,11 @@ UIManager::UIManager(Bank& bank)
       listViewActive_(-1),
       messageReturnState_(ScreenState::MAIN_MENU) {
     clearInputBuffers();
-    // std::cout << "UIManager initialized." << std::endl; // Debug
+    // std::cout << "UIManager initialized." << std::endl; // MY Debug
 }
 
 void UIManager::run() {
-    // std::cout << "UIManager run() called." << std::endl; // Debug
+    // std::cout << "UIManager run() called." << std::endl; //THE Debug
     InitWindow(screenWidth_, screenHeight_, "Mini Banking System");
     if (!IsWindowReady()) {
         std::cerr << "Error: Failed to initialize Raylib window!" << std::endl;
@@ -81,12 +81,12 @@ void UIManager::run() {
         }
         EndDrawing();
     }
-    // std::cout << "UIManager closing window." << std::endl; // Debug
+    // std::cout << "UIManager closing window." << std::endl; //my Debug
     CloseWindow();
 }
 
 void UIManager::changeState(ScreenState newState) {
-    // std::cout << "Changing state to: " << static_cast<int>(newState) << std::endl; // Debug
+    // std::cout << "Changing state to: " << static_cast<int>(newState) << std::endl; //my Debug
     currentState_ = newState;
     clearInputBuffers();
     listViewScrollIndex_ = 0;
@@ -107,6 +107,7 @@ void UIManager::changeState(ScreenState newState) {
      }
 }
 
+//message window
 void UIManager::showMessage(const std::string& title, const std::string& text, ScreenState returnState) {
     messageTitle_ = title;
     messageText_ = text;
@@ -114,6 +115,7 @@ void UIManager::showMessage(const std::string& title, const std::string& text, S
     changeState(ScreenState::SHOW_MESSAGE);
 }
 
+//
 void UIManager::clearInputBuffers() {
     customerNameInput_[0] = '\0';
     searchCustomerNameInput_[0] = '\0';
@@ -128,11 +130,13 @@ void UIManager::clearInputBuffers() {
     transactionAmount_ = 0.0f;
 }
 
+    ///define the return button
+
 bool UIManager::processInput() {
     if (IsKeyPressed(KEY_ESCAPE)) {
         if (currentState_ == ScreenState::MAIN_MENU) {
             // std::cout << "ESC pressed on Main Menu. Exiting." << std::endl; // Debug
-            return true; // Signal to exit application
+            return true; 
         } else {
             ScreenState targetState = ScreenState::MAIN_MENU;
             switch (currentState_) {
@@ -164,7 +168,7 @@ bool UIManager::processInput() {
                     }
                     break;
                 case ScreenState::SHOW_MESSAGE:
-                    return false; // Message box handles its own dismissal or ESC is ignored
+                    return false; 
                 default:
                      targetState = ScreenState::MAIN_MENU;
                      break;
@@ -173,9 +177,10 @@ bool UIManager::processInput() {
             return false; // Do not exit application
         }
     }
-    return false; // No ESC pressed, do not exit application
+    return false; 
 }
 
+//main menue
 void UIManager::drawMainMenu() {
     Font currentFont = GuiGetFont();
     int baseFontSize = GuiGetStyle(DEFAULT, TEXT_SIZE);
@@ -207,6 +212,7 @@ void UIManager::drawMainMenu() {
     }
 }
 
+//register new customer
 void UIManager::drawRegisterCustomer() {
     Font currentFont = GuiGetFont();
     int baseFontSize = GuiGetStyle(DEFAULT, TEXT_SIZE);
@@ -265,6 +271,7 @@ void UIManager::drawRegisterCustomer() {
     }
 }
 
+//input the customer number
 void UIManager::drawAccessCustomerSearch() {
     Font currentFont = GuiGetFont();
     int baseFontSize = GuiGetStyle(DEFAULT, TEXT_SIZE);
@@ -316,7 +323,7 @@ void UIManager::drawAccessCustomerSearch() {
     }
 }
 
-
+//customer view(after succed find the cutomer number)
 void UIManager::drawCustomerView() {
      if (!currentCustomer_) {
         showMessage("Error", "Cannot display customer view. No customer selected.", ScreenState::ACCESS_CUSTOMER_SEARCH);
@@ -382,6 +389,7 @@ void UIManager::drawCustomerView() {
     }
 }
 
+//showing the account when customers get into his/her/their accouts. and the options they made
 void UIManager::drawAccountViewShared(const std::string& titlePrefix) {
      if (!currentAccount_) {
         ScreenState returnState = currentCustomer_ ? ScreenState::CUSTOMER_VIEW : ScreenState::ACCESS_CUSTOMER_SEARCH;
@@ -438,6 +446,7 @@ void UIManager::drawAccountViewSavings() {
      }
 }
 
+//cheking the account status
 void UIManager::drawAccountViewChecking() {
     drawAccountViewShared("Checking Account: ");
      if (!currentAccount_) return;
@@ -481,6 +490,7 @@ void UIManager::drawAccountViewChecking() {
      }
 }
 
+//showing the deposit status
 void UIManager::drawDepositView() {
      if (!currentAccount_ || currentAccount_->getType() != AccountType::CHECKING) {
         showMessage("Error", "Cannot deposit. Invalid account state.", ScreenState::CUSTOMER_VIEW);
@@ -563,6 +573,8 @@ void UIManager::drawDepositView() {
         changeState(ScreenState::ACCOUNT_VIEW_CHECKING);
     }
 }
+
+//the option in withdraw and showing the satus
 
 void UIManager::drawWithdrawView() {
      if (!currentAccount_ || currentAccount_->getType() != AccountType::CHECKING) {
@@ -647,6 +659,7 @@ void UIManager::drawWithdrawView() {
     }
 }
 
+//the transfer opition, and culculate
 void UIManager::drawTransferView() {
     if (!currentAccount_) {
         showMessage("Error", "Cannot transfer. Invalid source account state.", ScreenState::CUSTOMER_VIEW);
@@ -749,6 +762,7 @@ void UIManager::drawTransferView() {
     }
 }
 
+//the whole status of the APP and showing the history
 void UIManager::drawViewAllAccounts() {
     Font currentFont = GuiGetFont();
     int baseFontSize = GuiGetStyle(DEFAULT, TEXT_SIZE);
@@ -842,6 +856,7 @@ void UIManager::drawViewAllAccounts() {
     }
 }
 
+//only showing the history of transaction
 void UIManager::drawTransactionHistoryWrapper() {
     std::string title;
     std::vector<Transaction> transactions;
@@ -863,6 +878,7 @@ void UIManager::drawTransactionHistoryWrapper() {
     drawTransactionHistory(title, transactions, returnState);
 }
 
+//design of transaction history option
 void UIManager::drawTransactionHistory(const std::string& title, const std::vector<Transaction>& transactions, ScreenState returnState) {
     Font currentFont = GuiGetFont();
     int baseFontSize = GuiGetStyle(DEFAULT, TEXT_SIZE);
@@ -918,6 +934,7 @@ void UIManager::drawTransactionHistory(const std::string& title, const std::vect
     }
 }
 
+//message box and message windows
 void UIManager::drawMessageBox() {
     DrawRectangle(0, 0, screenWidth_, screenHeight_, Fade(RAYWHITE, 0.8f));
     float msgBoxWidth = 550;
@@ -957,4 +974,4 @@ void UIManager::drawMessageBox() {
 }
 
 
-} // namespace banking_system
+} 
