@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ELVIS\Desktop\bank-project
+CMAKE_SOURCE_DIR = C:\Users\ELVIS\Desktop\minibank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ELVIS\Desktop\bank-project\build
+CMAKE_BINARY_DIR = C:\Users\ELVIS\Desktop\minibank\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MiniBankingApp.dir/depend.make
@@ -73,138 +73,138 @@ CMakeFiles/MiniBankingApp.dir/codegen:
 
 CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/main.cpp
+CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/main.cpp
 CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\main.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\main.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\main.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\main.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\main.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\main.cpp > CMakeFiles\MiniBankingApp.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\main.cpp > CMakeFiles\MiniBankingApp.dir\src\main.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\main.cpp -o CMakeFiles\MiniBankingApp.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\main.cpp -o CMakeFiles\MiniBankingApp.dir\src\main.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/Account.cpp
+CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/Account.cpp
 CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Account.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Account.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Account.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Account.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\Account.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/Account.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\Account.cpp > CMakeFiles\MiniBankingApp.dir\src\Account.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\Account.cpp > CMakeFiles\MiniBankingApp.dir\src\Account.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/Account.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\Account.cpp -o CMakeFiles\MiniBankingApp.dir\src\Account.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\Account.cpp -o CMakeFiles\MiniBankingApp.dir\src\Account.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/SavingsAccount.cpp
+CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/SavingsAccount.cpp
 CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\SavingsAccount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\SavingsAccount.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\SavingsAccount.cpp > CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\SavingsAccount.cpp > CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/SavingsAccount.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\SavingsAccount.cpp -o CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\SavingsAccount.cpp -o CMakeFiles\MiniBankingApp.dir\src\SavingsAccount.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/CheckingAccount.cpp
+CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/CheckingAccount.cpp
 CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\CheckingAccount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\CheckingAccount.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\CheckingAccount.cpp > CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\CheckingAccount.cpp > CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/CheckingAccount.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\CheckingAccount.cpp -o CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\CheckingAccount.cpp -o CMakeFiles\MiniBankingApp.dir\src\CheckingAccount.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/Transaction.cpp
+CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/Transaction.cpp
 CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\Transaction.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\Transaction.cpp > CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\Transaction.cpp > CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/Transaction.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\Transaction.cpp -o CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\Transaction.cpp -o CMakeFiles\MiniBankingApp.dir\src\Transaction.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/Customer.cpp
+CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/Customer.cpp
 CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\Customer.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\Customer.cpp > CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\Customer.cpp > CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/Customer.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\Customer.cpp -o CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\Customer.cpp -o CMakeFiles\MiniBankingApp.dir\src\Customer.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/Bank.cpp
+CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/Bank.cpp
 CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\Bank.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\Bank.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\Bank.cpp > CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\Bank.cpp > CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/Bank.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\Bank.cpp -o CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\Bank.cpp -o CMakeFiles\MiniBankingApp.dir\src\Bank.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/Utils.cpp
+CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/Utils.cpp
 CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\Utils.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\Utils.cpp > CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\Utils.cpp > CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/Utils.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\Utils.cpp -o CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\Utils.cpp -o CMakeFiles\MiniBankingApp.dir\src\Utils.cpp.s
 
 CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj: CMakeFiles/MiniBankingApp.dir/flags.make
 CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj: CMakeFiles/MiniBankingApp.dir/includes_CXX.rsp
-CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj: C:/Users/ELVIS/Desktop/bank-project/src/UIManager.cpp
+CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj: C:/Users/ELVIS/Desktop/minibank/src/UIManager.cpp
 CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj: CMakeFiles/MiniBankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.obj -c C:\Users\ELVIS\Desktop\bank-project\src\UIManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.obj -MF CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.obj.d -o CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.obj -c C:\Users\ELVIS\Desktop\minibank\src\UIManager.cpp
 
 CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\bank-project\src\UIManager.cpp > CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ELVIS\Desktop\minibank\src\UIManager.cpp > CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.i
 
 CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniBankingApp.dir/src/UIManager.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\bank-project\src\UIManager.cpp -o CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ELVIS\Desktop\minibank\src\UIManager.cpp -o CMakeFiles\MiniBankingApp.dir\src\UIManager.cpp.s
 
 # Object files for target MiniBankingApp
 MiniBankingApp_OBJECTS = \
@@ -235,7 +235,7 @@ MiniBankingApp.exe: external/raylib/raylib/libraylib.a
 MiniBankingApp.exe: CMakeFiles/MiniBankingApp.dir/linkLibs.rsp
 MiniBankingApp.exe: CMakeFiles/MiniBankingApp.dir/objects1.rsp
 MiniBankingApp.exe: CMakeFiles/MiniBankingApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MiniBankingApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MiniBankingApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MiniBankingApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -247,6 +247,6 @@ CMakeFiles/MiniBankingApp.dir/clean:
 .PHONY : CMakeFiles/MiniBankingApp.dir/clean
 
 CMakeFiles/MiniBankingApp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ELVIS\Desktop\bank-project C:\Users\ELVIS\Desktop\bank-project C:\Users\ELVIS\Desktop\bank-project\build C:\Users\ELVIS\Desktop\bank-project\build C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles\MiniBankingApp.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ELVIS\Desktop\minibank C:\Users\ELVIS\Desktop\minibank C:\Users\ELVIS\Desktop\minibank\build C:\Users\ELVIS\Desktop\minibank\build C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles\MiniBankingApp.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MiniBankingApp.dir/depend
 

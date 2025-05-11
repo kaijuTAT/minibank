@@ -1,5 +1,5 @@
 CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: \
- C:\Users\ELVIS\Desktop\bank-project\src\main.cpp \
+ C:\Users\ELVIS\Desktop\minibank\src\main.cpp \
  C:/msys64/mingw64/include/c++/14.2.0/iostream \
  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -140,12 +140,12 @@ CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/istream \
  C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/raylib.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/raylib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
  C:/msys64/mingw64/include/stdarg.h \
  C:/msys64/mingw64/include/_mingw_stdarg.h \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/raygui.h \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/raylib.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/raygui.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/raylib.h \
  C:/msys64/mingw64/include/string.h \
  C:/msys64/mingw64/include/sec_api/string_s.h \
  C:/msys64/mingw64/include/c++/14.2.0/math.h \
@@ -165,7 +165,7 @@ CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
- C:/Users/ELVIS/Desktop/bank-project/include/Bank.hh \
+ C:/Users/ELVIS/Desktop/minibank/include/Bank.hh \
  C:/msys64/mingw64/include/c++/14.2.0/vector \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
@@ -211,12 +211,12 @@ CMakeFiles/MiniBankingApp.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/numeric \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
- C:/Users/ELVIS/Desktop/bank-project/include/Transaction.hh \
+ C:/Users/ELVIS/Desktop/minibank/include/Transaction.hh \
  C:/msys64/mingw64/include/c++/14.2.0/chrono \
  C:/msys64/mingw64/include/c++/14.2.0/bits/chrono.h \
  C:/msys64/mingw64/include/c++/14.2.0/ratio \
  C:/msys64/mingw64/include/c++/14.2.0/ctime \
  C:/msys64/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
- C:/Users/ELVIS/Desktop/bank-project/include/Customer.hh \
- C:/Users/ELVIS/Desktop/bank-project/include/Account.hh \
- C:/Users/ELVIS/Desktop/bank-project/include/UIManager.hh
+ C:/Users/ELVIS/Desktop/minibank/include/Customer.hh \
+ C:/Users/ELVIS/Desktop/minibank/include/Account.hh \
+ C:/Users/ELVIS/Desktop/minibank/include/UIManager.hh

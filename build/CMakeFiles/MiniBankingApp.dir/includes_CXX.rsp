@@ -1,1 +1,1 @@
--I"C:/Users/ELVIS/Desktop/bank-project/include" -I"C:/Users/ELVIS/Desktop/bank-project/external/raylib/src" -I"C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/glfw/include"
+-IC:/Users/ELVIS/Desktop/minibank/include -IC:/Users/ELVIS/Desktop/minibank/external/raylib/src -IC:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/glfw/include

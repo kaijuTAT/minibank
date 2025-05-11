@@ -1,6 +1,6 @@
 external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\raudio.c \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\raylib.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\raudio.c \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\raylib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
  C:/msys64/mingw64/include/stdarg.h \
  C:/msys64/mingw64/include/_mingw_stdarg.h \
@@ -9,8 +9,8 @@ external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/msys64/mingw64/include/_mingw_secapi.h \
  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\config.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\utils.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\config.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\utils.h \
  C:/msys64/mingw64/include/windows.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h C:/msys64/mingw64/include/corecrt.h \
@@ -240,7 +240,7 @@ external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/mmreg.h \
  C:/msys64/mingw64/include/pshpack1.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/miniaudio.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/miniaudio.h \
  C:/msys64/mingw64/include/assert.h C:/msys64/mingw64/include/math.h \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
@@ -252,12 +252,12 @@ external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: \
  C:/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/msys64/mingw64/include/sys/stat.h C:/msys64/mingw64/include/io.h \
  C:/msys64/mingw64/include/sys/types.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/dr_wav.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/stb_vorbis.c \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/dr_mp3.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/qoa.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/qoaplay.c \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/jar_xm.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/dr_wav.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/stb_vorbis.c \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/dr_mp3.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/qoa.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/qoaplay.c \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/jar_xm.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
  C:/msys64/mingw64/include/stdint.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/jar_mod.h
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/jar_mod.h

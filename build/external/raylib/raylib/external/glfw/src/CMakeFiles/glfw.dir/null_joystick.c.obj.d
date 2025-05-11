@@ -1,7 +1,7 @@
 external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\null_joystick.c \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\internal.h \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/glfw/include/GLFW/glfw3.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\null_joystick.c \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\internal.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/glfw/include/GLFW/glfw3.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
  C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -11,9 +11,9 @@ external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj
  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
  C:/msys64/mingw64/include/stdint.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\platform.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\null_platform.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\win32_platform.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\platform.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\null_platform.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\win32_platform.h \
  C:/msys64/mingw64/include/wctype.h \
  C:/msys64/mingw64/include/corecrt_wctype.h \
  C:/msys64/mingw64/include/windows.h \
@@ -218,8 +218,8 @@ external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj
  C:/msys64/mingw64/include/propidl.h \
  C:/msys64/mingw64/include/_mingw_dxhelper.h \
  C:/msys64/mingw64/include/xinput.h C:/msys64/mingw64/include/dbt.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\null_joystick.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\win32_joystick.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\win32_thread.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external\glfw\src\win32_time.h \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/glfw/include/GLFW/glfw3native.h
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\null_joystick.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\win32_joystick.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\win32_thread.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external\glfw\src\win32_time.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/glfw/include/GLFW/glfw3native.h

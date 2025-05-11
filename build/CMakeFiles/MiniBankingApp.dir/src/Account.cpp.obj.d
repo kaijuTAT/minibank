@@ -1,6 +1,6 @@
 CMakeFiles/MiniBankingApp.dir/src/Account.cpp.obj: \
- C:\Users\ELVIS\Desktop\bank-project\src\Account.cpp \
- C:/Users/ELVIS/Desktop/bank-project/include/Account.hh \
+ C:\Users\ELVIS\Desktop\minibank\src\Account.cpp \
+ C:/Users/ELVIS/Desktop/minibank/include/Account.hh \
  C:/msys64/mingw64/include/c++/14.2.0/string \
  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \

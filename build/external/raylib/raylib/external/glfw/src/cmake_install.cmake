@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/glfw/src
+# Install script for directory: C:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/ELVIS/Desktop/bank-project/build/external/raylib/raylib/external/glfw/src/install_local_manifest.txt"
+  file(WRITE "C:/Users/ELVIS/Desktop/minibank/build/external/raylib/raylib/external/glfw/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

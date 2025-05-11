@@ -1,6 +1,6 @@
 external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\rtextures.c \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\raylib.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\rtextures.c \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\raylib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
  C:/msys64/mingw64/include/stdarg.h \
  C:/msys64/mingw64/include/_mingw_stdarg.h \
@@ -9,9 +9,9 @@ external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: \
  C:/msys64/mingw64/include/_mingw_secapi.h \
  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\config.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\utils.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\rlgl.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\config.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\utils.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\rlgl.h \
  C:/msys64/mingw64/include/stdlib.h C:/msys64/mingw64/include/corecrt.h \
  C:/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
@@ -27,7 +27,7 @@ external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: \
  C:/msys64/mingw64/include/_mingw_off_t.h \
  C:/msys64/mingw64/include/swprintf.inl \
  C:/msys64/mingw64/include/sec_api/stdio_s.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/stb_image.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/stb_image.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
  C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/assert.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
@@ -35,9 +35,9 @@ external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/rl_gputex.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/qoi.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/stb_image_write.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/stb_perlin.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/stb_image_resize2.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/stb_image_resize2.h
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/rl_gputex.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/qoi.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/stb_image_write.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/stb_perlin.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/stb_image_resize2.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/stb_image_resize2.h

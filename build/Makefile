@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ELVIS\Desktop\bank-project
+CMAKE_SOURCE_DIR = C:\Users\ELVIS\Desktop\minibank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ELVIS\Desktop\bank-project\build
+CMAKE_BINARY_DIR = C:\Users\ELVIS\Desktop\minibank\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/ELVIS/Desktop/bank-project/build/CPackSourceConfig.cmake
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/ELVIS/Desktop/minibank/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,9 +151,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles C:\Users\ELVIS\Desktop\bank-project\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles C:\Users\ELVIS\Desktop\minibank\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ELVIS\Desktop\bank-project\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ELVIS\Desktop\minibank\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

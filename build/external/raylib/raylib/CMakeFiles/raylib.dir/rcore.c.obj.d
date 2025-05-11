@@ -1,6 +1,6 @@
 external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\rcore.c \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\raylib.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\rcore.c \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\raylib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
  C:/msys64/mingw64/include/stdarg.h \
  C:/msys64/mingw64/include/_mingw_stdarg.h \
@@ -9,8 +9,8 @@ external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/msys64/mingw64/include/_mingw_secapi.h \
  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\config.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\utils.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\config.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\utils.h \
  C:/msys64/mingw64/include/stdlib.h C:/msys64/mingw64/include/corecrt.h \
  C:/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
@@ -32,31 +32,31 @@ external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: \
  C:/msys64/mingw64/include/pthread_time.h \
  C:/msys64/mingw64/include/pthread_compat.h \
  C:/msys64/mingw64/include/math.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\rlgl.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/glad.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\rlgl.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/glad.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
  C:/msys64/mingw64/include/stdint.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
  C:/msys64/mingw64/include/stddef.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\raymath.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\rgestures.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\rcamera.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/msf_gif.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\raymath.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\rgestures.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\rcamera.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/msf_gif.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/sinfl.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/sinfl.h \
  C:/msys64/mingw64/include/assert.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/sdefl.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\external/rprand.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/sdefl.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\external/rprand.h \
  C:/msys64/mingw64/include/sys/stat.h C:/msys64/mingw64/include/io.h \
  C:/msys64/mingw64/include/sys/types.h \
  C:/msys64/mingw64/include/_mingw_stat64.h \
  C:/msys64/mingw64/include/dirent.h C:/msys64/mingw64/include/direct.h \
- C:\Users\ELVIS\Desktop\bank-project\external\raylib\src\platforms/rcore_desktop_glfw.c \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/glfw/include/GLFW/glfw3.h \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/win32_clipboard.h \
- C:/Users/ELVIS/Desktop/bank-project/external/raylib/src/external/glfw/include/GLFW/glfw3native.h \
+ C:\Users\ELVIS\Desktop\minibank\external\raylib\src\platforms/rcore_desktop_glfw.c \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/glfw/include/GLFW/glfw3.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/win32_clipboard.h \
+ C:/Users/ELVIS/Desktop/minibank/external/raylib/src/external/glfw/include/GLFW/glfw3native.h \
  C:/msys64/mingw64/include/minwindef.h \
  C:/msys64/mingw64/include/winapifamily.h \
  C:/msys64/mingw64/include/specstrings.h C:/msys64/mingw64/include/sal.h \
