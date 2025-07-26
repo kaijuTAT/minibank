@@ -1,6 +1,3 @@
-# Mini Banking System
-
-My ID:2023905417
 
 My Chinese name: 林俊锴
 
